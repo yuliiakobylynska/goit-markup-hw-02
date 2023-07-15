@@ -14,22 +14,23 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--navy-blue, #2e2f42);
-  background-color: #fff;
+  color: var(--slate, #434455);
+  background-color: var(--white, #ffffff);
 }
 /*------------------HEADER------------------------------------------*/
 .header-logo {
-  color: var(--navy-blue, #2e2f42);
+  color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .address-link {
   color: var(--slate, #434455);
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -43,11 +44,11 @@ body {
 .header-menu-link:hover,
 .header-menu-link:active,
 .header-menu-link:focus {
-  background-color: var(--ocean, #404bbf);
+  color: var(--ocean, #404bbf);
 }
 
-.web-logo {
-  color: var(--iris, #4d5ae5);
+.studio-logo {
+  color: var(--navyblue, #2e2f42);
 }
 .address-link:hover,
 .address-link:focus {
@@ -60,6 +61,7 @@ body {
 }
 .section-service {
   color: var(--white, #fff);
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -106,7 +108,7 @@ body {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 /*-----------------------SECTION-PICTURE---------------------------------------------------*/
 .section-title {
@@ -119,7 +121,7 @@ body {
 }
 /*-------------------------SECTION-TEAM-----------------------------------------*/
 .team {
-  background: var(--cloud, #f4f4fd);
+  background-color: var(--white, #ffffff);
 }
 
 .team-title {
@@ -139,16 +141,16 @@ body {
   background-color: var(--navy-blue, #2e2f42);
 }
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo {
-  color: var(--iris, #4d5ae5);
+  color: var(--cloud, #f4f4fd);
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
@@ -156,7 +158,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*-------------------------------------------------------------------------*/
+/*----------------------------BUTTON-PORTFOLIO-------------------------------------------*/
+.btn-info {
+  font-family: "Roboto", sans-serif;
+  color: var(--iris, #4d5ae5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--cloud, #f4f4fd);
+}
 .btn-info:hover,
 .btn-info:active,
 .btn-info:focus {
