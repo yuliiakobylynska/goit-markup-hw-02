@@ -17,7 +17,6 @@ body {
   color: var(--slate, #434455);
   background-color: var(--white, #ffffff);
 }
-/*------------------HEADER------------------------------------------*/
 .header-logo {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -57,8 +56,6 @@ body {
 .address-link:focus {
   color: var(--ocean, #404bbf);
 }
-
-/*-----------------------------MAIN-------------------------------------------*/
 .service {
   background-color: var(--navy-blue, #2e2f42);
 }
@@ -86,7 +83,6 @@ body {
 .btn-service:focus {
   background-color: var(--ocean, #404bbf);
 }
-/*-----------------------------SECTION1---------------------------------------------------------------------------*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -102,6 +98,7 @@ body {
 }
 
 .section-service-title {
+  color: var(--navy-blue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -113,7 +110,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*-----------------------SECTION-PICTURE---------------------------------------------------*/
 .section-title {
   text-align: center;
   color: var(--grey, #2e2f42);
@@ -123,7 +119,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-/*-------------------------SECTION-TEAM-----------------------------------------*/
 .team {
   background-color: var(--cloud, #f4f4fd);
 }
@@ -193,6 +188,7 @@ body {
 }
 
 .info-title {
+  color: var(--navy-blue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
