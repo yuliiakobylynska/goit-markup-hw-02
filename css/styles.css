@@ -47,7 +47,7 @@ body {
   color: var(--ocean, #404bbf);
 }
 
-.studio-logo {
+.header-studio-logo {
   color: var(--navyblue, #2e2f42);
 }
 .address-link:hover,
